@@ -25,3 +25,7 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+bin
+pyproject.toml
+pyvenv.cfg
