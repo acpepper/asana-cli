@@ -12,10 +12,12 @@ setup(
     long_description=readme,
     author='Al Johri',
     author_email='al.johri@gmail.com',
+    maintainer='Adam Procio',
+    maintainer_email="adam.procio@gmail.com",
     url='https://github.com/AlJohri/asana-cli',
     license='MIT',
     packages=find_packages(),
-    install_requires=['requests', 'click',],
+    install_requires=['click', 'asana',],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     entry_points={
